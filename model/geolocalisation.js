@@ -4,9 +4,14 @@ function geolocalisation()
 	{
 		navigator.geolocation.getCurrentPosition(function(position)
 		{
-			alert("latitude : " + position.coords.latitude + ", longitude : " + position.coords.longitude);
+			var latitude = position.coords.latitude;
+			var longitude = position.coords.longitude;
+			var tabposition = ["latitude" = latitude, "longitude" = longitude];
 		});
+		return tabposition;
 	}
 	else
-		alert("votre navigateur ne peux afficher la geolocalisation");
+	{
+		return false;
+	}
 }
