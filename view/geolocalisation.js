@@ -22,6 +22,6 @@ function geoloc()
 	else
 	{
 		var tabposition = geolocaisation();
-		$("#geoloc").html(tabposition.latitude + " " + tabposition.longitude);
+		$("#geoloc").html(tabposition["latitude"] + " " + tabposition["longitude"]);
 	}
 }
