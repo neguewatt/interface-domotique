@@ -1,0 +1,1 @@
+<script type = 'text/javascript' src = 'externe/jquery.js'></script>
