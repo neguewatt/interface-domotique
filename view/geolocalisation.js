@@ -12,9 +12,8 @@ function include(url, callback){
 	document.getElementsByTagName("head")[0].appendChild(script);
 }
 
-include("../model/geolocalisation.js", geoloc);
+include("../controller/geolocalisation.js", position);
 
-function geoloc()
-{
-	geolocalisation();
+function position(){
+	supported();
 }
