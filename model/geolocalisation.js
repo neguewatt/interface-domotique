@@ -6,8 +6,8 @@ function geolocalisation() {
     }
 }
 function showPosition(position) {
-    $("#geoloc").html("Latitude: " + position.coords.latitude + 
-    " Longitude: " + position.coords.longitude); 
+    $("#geoloc").html(position.coords.latitude + 
+    ", " + position.coords.longitude); 
 }
 
 function showError(error) {
