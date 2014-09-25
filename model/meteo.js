@@ -1,14 +1,14 @@
-function meteo(){
+function meteo(p_ville, p_temperature, p_image, p_description, p_altImage, p_directionVent, p_vitesseVent, p_tempRessentie, p_visibilite){
 
-	private	ville, //location
-			temperature, //temp_c
-			image,
-			uneDescription, //weather
-			altImage, //unTitle
-			directionVent,
-			vitesseVent,
-			tempRessentie,
-			visibilite;
+	this.ville = p_ville; //location
+	this.temperature = p_temperature;  //temp_c
+	this.image = p_image;
+	this.uneDescription = p_description; //weather
+	this.altImage = p_altImage; //unTitle
+	this.directionVent = p_directionVent;
+	this.vitesseVent = p_vitesseVent;
+	this.tempRessentie = p_tempRessentie;
+	this.visibilite = p_visibilite;
 
 	function getMeteo(p_latitue, p_longitude)
 	{
