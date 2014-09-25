@@ -1,5 +1,1 @@
-function divmeteo()
-{
-	var laMeteo = getMeteo();
-	alert(laMeteo.temperature);
-}
+$('#meteo').html("Chargement de la météo ...");

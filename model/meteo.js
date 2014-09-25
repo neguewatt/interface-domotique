@@ -9,8 +9,11 @@ function meteo(p_ville, p_temperature, p_image, p_description, p_altImage, p_dir
 	this.vitesseVent = p_vitesseVent;
 	this.tempRessentie = p_tempRessentie;
 	this.visibilite = p_visibilite;
+}
 
-	function getMeteo(p_latitue, p_longitude)
+meteo.prototype = {
+
+	getMeteo : function(p_latitue, p_longitude)
 	{
 		$.ajax({
 			url : "http://api.wunderground.com/api/3f0376e269a62937/geolookup/conditions/lang:FC/q/"+p_latitue+","+p_longitude+".json",
@@ -27,6 +30,8 @@ function meteo(p_ville, p_temperature, p_image, p_description, p_altImage, p_dir
 				this.visibilite = parsed_json['current_observation']['visibility_km'] + " km";								
 				}
 		});
-	}
 
+		alert(this.ville);
+	}
 }
+
