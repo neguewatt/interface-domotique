@@ -11,3 +11,10 @@ function include(url, callback){
 	}
 	document.getElementsByTagName("head")[0].appendChild(script);
 }
+
+//inclure model/meteo
+include("../model/meteo.js", getMeteo);
+
+function getMeteo(){
+
+}
