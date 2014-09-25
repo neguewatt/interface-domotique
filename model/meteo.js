@@ -30,8 +30,6 @@ meteo.prototype = {
 				this.visibilite = parsed_json['current_observation']['visibility_km'] + " km";								
 				}
 		});
-
-		alert(this.ville);
 	}
 }
 
