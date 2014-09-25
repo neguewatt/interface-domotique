@@ -15,15 +15,6 @@ function include(url, callback){
 include("../controller/date.js", divDate);
 
 function divDate(){
-	if(minutes < 10){
-		minutes = "0"+minutes;
-	}
-	if(mois < 10){
-		mois = "0" + mois;
-	}
-
-	var tabJour = {"1" : "Lundi", "2" : "Mardi", "3" : "Mercredi", "4" : "Jeudi", "5" : "Vendredi", "6" : "Samedi", "7" : "Dimanche"};
-
-	$("#date").html(heures + " : " + minutes);
-	$("#date").append( " " + tabJour[jourS] + " " + jour + "/" + mois + "/" + annee);
+	var tabDate = avoirDate();
+	$("#date").html(tabDate.lHeure + " : " + tabDate.laMinute + " " + tabDate.leJourSemaine + " " + tabDate.leJour + "/" + tabDate.leMois + "/" + tabDate.lAnnee);
 }
