@@ -13,15 +13,8 @@ function include(url, callback){
 }
 
 include("../model/geolocalisation.js", geoloc);
+
 function geoloc()
 {
-	if (!geolocalisation())
-	{
-		$("#geoloc").html("vous ne pouvez pas être localisé.");
-	}
-	else
-	{
-		var tabposition = geolocaisation();
-		$("#geoloc").html(tabposition["latitude"] + " " + tabposition["longitude"]);
-	}
+	geolocalisation();
 }

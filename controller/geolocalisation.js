@@ -11,9 +11,3 @@ function include(url, callback){
 	}
 	document.getElementsByTagName("head")[0].appendChild(script);
 }
-
-include("../modele/geolocalisation.js", geoloc);
-function geoloc()
-{
-	geolocalisation();
-}
