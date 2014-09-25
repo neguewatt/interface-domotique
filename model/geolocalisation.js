@@ -5,9 +5,13 @@ function geolocalisation() {
         $("#geoloc").html("Geolocation is not supported by this browser.");
     }
 }
-function showPosition(position) {
-    $("#geoloc").html(position.coords.latitude + 
-    ", " + position.coords.longitude); 
+function showPosition(position) 
+{
+	var latitude = position.coords.latitude;
+	var longitude = position.coords.longitude;
+    $("#geoloc").html(latitude + 
+    ", " + longitude);
+    var latlong = (latitude +","+ longitude);
 }
 
 function showError(error) {
