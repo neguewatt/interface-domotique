@@ -15,7 +15,7 @@
 	<body>
 		<div data-role="page" data-theme="a">
 			<div data-role="header" data-position="inline">
-				<h1><img src="/image/home.png" alt="home">HOME</h1>
+				<h1><img src="images/home.png" alt="home" id="imagehome">HOME</h1>
 			</div>
 
 			<div id = 'date'></div>
