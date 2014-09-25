@@ -8,8 +8,8 @@ function supported(){
 }
 
 function laPosition(position){
-	$('#latitude').val(position.coords.latitude);
-	$('#longitude').val(position.coords.longitude);
+	$('#geoloc > #latitude').val(position.coords.latitude);
+	$('#geoloc > #longitude').val(position.coords.longitude);
 }
 
 

@@ -4,4 +4,4 @@ function divDate(){
 	$("#heure").html(tabDate.lHeure + ":" + tabDate.laMinute);
 }
 
-//setInterval(function(){divDate()}, 1000);
+setInterval(function(){divDate()}, 1000);

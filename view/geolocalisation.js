@@ -1,3 +1,1 @@
-function position(){
-	supported();
-}
+supported();
