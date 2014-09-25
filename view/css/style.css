@@ -12,16 +12,17 @@
 	color:#FFFBFB;
     padding-top: 20px;
     width: 240px;
-    padding-right: 95px;
+    padding-right: 100px;
     padding-left: 20px;	
 }
 
 .centremeteo
 {
 	color:#FFFBFB;
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-right: 69px;	
+	width: 260px;
+    padding-top: 45px;
+    padding-left: 50px;
+    padding-right: 50px;	
 }
 
 .centreheure
@@ -34,9 +35,10 @@
 
 .carrecentral
 {
+	border-radius: 30px;
     margin-left: 35%;
     margin-top: 3%;
-    width: 400px;
-    height: 175px;
+    width: 360px;
+    height: 170px;
     background-color : #333333; 
 }
