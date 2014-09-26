@@ -3,6 +3,6 @@ setTimeout(function(){
 	var longitude = $('#geoloc > #longitude').val();
 	var laMeteo = new meteo();
 	laMeteo.getMeteo(latitude, longitude);
-	alert(laMeteo.ville);
+	//alert(laMeteo.ville);
 	//$("#meteo").html(laMeteo.ville);
 }, 2000);
