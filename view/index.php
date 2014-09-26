@@ -20,10 +20,10 @@
 				<h1><img src="images/home.png" alt="home" class="imageheader">HOME</h1>
 			</div>
 				<div id="carregauche">
-
+					<p style="text-align: center"> RECAP MODULE TEMPERATURE INTERIEUR</p>
 				</div>
 				<div id ="carredroite">
-
+					<p style="text-align: center"> RECAP MODULE TEMPERATURE RADIATEUR (GESTION)</p>
 				</div>
 
 				<div id="carrecentral">
@@ -48,10 +48,10 @@
 
 
 		<div id="carrebasgauche">
-
+			<p style="text-align: center"> RECAP MODULE VOLETS (OUVERT OU FERMER)</p>
 		</div>
 		<div id ="carrebasdroite">
-
+			<p style="text-align: center"> RECAP MODULE LUMIERES (ETEINT OU FERMER)</p>
 		</div>
 
 		<div data-role="footer" data-position="fixed" class="footer" class="ui-bar" >
@@ -64,6 +64,9 @@
 				</a>
 				<a href="lumiere.html" data-role="button" id="boutonfooter">	
 			    	<img  src="images/bouton-lumiere.png" alt="home" class="imagefooter">
+			    </a>
+			    <a href="temperature.html" data-role="button" id="boutonfooter">	
+			    	<img  src="images/bouton-temperature2.png" alt="home" class="imagefooter">
 			    </a>
 			</div>
 		</div>
