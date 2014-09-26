@@ -1,5 +1,14 @@
 /* image redimensionner */
 
+#imageecran
+{
+    background-image: url(../images/fondecran.png);
+    background-position:center center;
+    background-size: cover;
+
+}
+
+
 .imageheader 
 {
 	 padding-right: 5%; 
@@ -21,6 +30,9 @@
 	 width: 40px;
 }
 
+
+/*--------------------------------------------------------------------------*/
+/*   bouton  */
 #centrebouton
 {
     display: block;
@@ -48,6 +60,9 @@
 	height: 40px;"
 }
 
+
+/*------------------------------------------------------------------------------*/
+/*		footer		*/
 .footer
 {
     padding-top: 0px;
@@ -55,10 +70,12 @@
     height: 40px;
 }
 
-
+/*--------------------------------------------------------------------------*/
+/*   Carrés  */
 .centredate
 {
-	color:#FFFBFB;
+	color:#fff;
+	opacity: 1;
     width: 240px;
     padding-right: 100px;
     padding-left: 35px;	
@@ -66,7 +83,8 @@
 
 .centremeteo
 {
-	color:#FFFBFB;
+	color:#FFF;
+	opacity: 1;
 	width: 260px;
     padding-top: 30px;
     padding-left: 50px;
@@ -75,7 +93,8 @@
 
 .centreheure
 {
-	color:#FFFBFB;
+	color:#fff;
+	opacity: 1;
 	padding-right: 135px;
     padding-left: 135px;
 }
@@ -91,20 +110,24 @@
     margin-left: auto;
     width: 360px;
     height: 170px;
-    background-color : #333; 
+    background-color : #000; 
+    opacity: 0.7;
     z-index: 1;
 }
 
 #carregauche
 {
+
 	float: left;
 	margin-left: 5%;
 	margin-top: 5%;
 	border-style: double;
 	border-radius: 30px;
+	border-color: #fff;
 	width: 220px;
 	height: 250px;
-	
+	background: #000;
+	opacity: 0.2;
 	z-index: 2;
 }
 
@@ -115,9 +138,11 @@
 	margin-top: 5%;
 	border-style: double;
 	border-radius: 30px;
+	border-color: #fff;
 	width: 220px;
 	height: 250px;
-	
+	background: #000;
+	opacity: 0.2;
 	z-index: 3;
 }
 
@@ -129,9 +154,11 @@
 	margin-top: 2%;
 	border-style: double;
 	border-radius: 30px;
+	border-color: #fff;
 	width: 220px;
 	height: 250px;
-	
+	background: #000;
+	opacity: 0.2;
 	z-index: 2;
 }
 
@@ -142,13 +169,20 @@
 	margin-top: 2%;
 	border-style: double;
 	border-radius: 30px;
+	border-color: #fff;
 	width: 220px;
 	height: 250px;
-	
+	background: #000;
+	opacity: 0.2;
 	z-index: 3;
 }
 
+/*--------------------------------------------------------------------------*/
+/*   interrieur des carrés  */
 
-
-
+.bascarre
+{
+    margin-top: 108px;
+    margin-left: 15px;
+}
 
