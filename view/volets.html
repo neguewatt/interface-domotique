@@ -26,34 +26,20 @@
 	<body>
 		<div data-role="page" data-theme="a">
 			<div data-role="header" data-position="inline">
-				<h1><img src="images/home.png" alt="home" class="imageheader">HOME</h1>
+				<h1><img src="images/home.png" alt="home" class="imageheader">Contrôle des fenetres</h1>
+			
+
+
+
+
+
+			<div data-role="footer" class="ui-bar">
+			    <a href="index.php"> <img src="images/bouton-home" alt="home" class="imagefooter"></a> 
+			    <a href="volets.html" data-icon="arrow-u">Haut</a> 
+			    <a href="#" data-icon="arrow-d">Bas</a>
 			</div>
-				<div class= "carrecentral">
-					<h1 class= "centreheure" id = 'heure'></h1>
-					<div class= "centredate" id = 'date'></div>
-					<div id = 'geoloc'>
-						<input type = 'hidden' id = 'latitude'></input>
-						<input type = 'hidden' id = 'longitude'></input>	
-						<div id = 'erreur'></div>		
-					</div>
-					<div class= "centremeteo" id = 'meteo'></div>
-				</div>
 
-			<!--	Inclusion du javascript	-->
-			<script type="text/javascript" src = "../model/externe/jquery.js" ></script>
-			<?php 
-				include('../model/script.php');
-				include('../controller/script.php');
-				include('script.php');
-			?>
-
-		<div data-role="footer" class= "footer" class="ui-bar" >
-		    <img  href="index.php" src="images/bouton-home.png" alt="home" class="imagefooterhome">
-		    <img  href="volets.html" src="images/bouton-volets.png" alt="home" class="imagefooter">
-		    <a href="#" data-icon="arrow-d">Bas</a>
 		</div>
-
-	</div>
 	</body>
 
 </html>
