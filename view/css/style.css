@@ -9,10 +9,6 @@
 
 .imagefooterhome 
 {
-    padding-left: 35%;
-    padding-top: 0px;
-    padding-bottom: 0px;
-	 padding-right: 2%; 
 	 height: 40px;
 	 width: 40px;
 }
@@ -20,9 +16,34 @@
 {
     padding-top: 0px;
     padding-bottom: 0px;
-	 padding-right: 2%; 
+	 padding-right: 5%; 
 	 height: 40px;
 	 width: 40px;
+}
+
+#centrebouton
+{
+	display: block;
+	margin-left: 45%;
+}
+
+
+#boutonfooter
+{
+	margin-left: 0px; 
+	margin-top: 0px; 
+	margin-right: 20px;
+	border-top-width: 0px; 
+	padding-top: 0px; 
+	padding-left: 0px; 
+	padding-bottom: 0px; 
+	padding-right: 0px; 
+	margin-bottom: 31px; 
+	border-right-width: 0px; 
+	border-bottom-width: 0px; 
+	border-left-width: 0px; 
+	width: 40px; 
+	height: 40px;"
 }
 
 .footer
@@ -59,28 +80,72 @@
 }
 
 
-.carrecentral
+#carrecentral
 {
 	border-radius: 30px;
-    margin-left: 35%;
+    overflow: hidden;
+    margin-right: 5%;
     margin-top: 10%;
     margin-bottom: 10%;
     width: 360px;
     height: 170px;
-    background-color : #333333; 
+    background-color : #333; 
     z-index: 1;
 }
 
-.carregauche
+#carregauche
 {
-	width: 200px;
-	height: 200px;
-	background-color: #333333;
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 5%;
+	border-style: double;
+	border-radius: 30px;
+	width: 220px;
+	height: 250px;
+	
 	z-index: 2;
 }
 
+#carredroite
+{
+	float: right;
+	margin-right: 5%;
+	margin-top: 5%;
+	border-style: double;
+	border-radius: 30px;
+	width: 220px;
+	height: 250px;
+	
+	z-index: 3;
+}
 
+#carrebasgauche
+{
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 2%;
+	border-style: double;
+	border-radius: 30px;
+	width: 220px;
+	height: 250px;
+	
+	z-index: 2;
+}
 
+#carrebasdroite
+{
+	float: right;
+	margin-right: 5%;
+	margin-top: 2%;
+	border-style: double;
+	border-radius: 30px;
+	width: 220px;
+	height: 250px;
+	
+	z-index: 3;
+}
 
 
 

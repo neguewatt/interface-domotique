@@ -25,10 +25,17 @@
 
 	<body>
 		<div data-role="page" data-theme="a">
-			<div data-role="header" data-position="inline">
+			<div data-role="header" data-position="fixed">
 				<h1><img src="images/home.png" alt="home" class="imageheader">HOME</h1>
 			</div>
-				<div class= "carrecentral">
+				<div id="carregauche">
+
+				</div>
+				<div id ="carredroite">
+
+				</div>
+
+				<div id="carrecentral">
 					<h1 class= "centreheure" id = 'heure'></h1>
 					<div class= "centredate" id = 'date'></div>
 					<div id = 'geoloc'>
@@ -39,6 +46,7 @@
 					<div class= "centremeteo" id = 'meteo'></div>
 				</div>
 
+
 			<!--	Inclusion du javascript	-->
 			<script type="text/javascript" src = "../model/externe/jquery.js" ></script>
 			<?php 
@@ -47,10 +55,26 @@
 				include('script.php');
 			?>
 
-		<div data-role="footer" class= "footer" class="ui-bar" >
-		    <img  href="index.php" src="images/bouton-home.png" alt="home" class="imagefooterhome">
-		    <img  href="volets.html" src="images/bouton-volets.png" alt="home" class="imagefooter">
-		    <a href="#" data-icon="arrow-d">Bas</a>
+
+		<div id="carrebasgauche">
+
+		</div>
+		<div id ="carrebasdroite">
+
+		</div>
+
+		<div data-role="footer" data-position="fixed" class="footer" class="ui-bar" >
+			<div id="centrebouton">
+				<a href="index.php" data-role="button" id="boutonfooter">
+			   		<img src="images/bouton-home.png" alt="home" class="imagefooterhome">
+				</a>
+				<a href="volets.html" data-role="button" id="boutonfooter">	
+			    	<img  src="images/bouton-volets.png" alt="home" class="imagefooter">
+				</a>
+				<a href="lumiere.html" data-role="button" id="boutonfooter">	
+			    	<img  src="images/bouton-lumiere.png" alt="home" class="imagefooter">
+			    </a>
+			</div>
 		</div>
 
 	</div>
