@@ -5,6 +5,8 @@
     background-image: url(../images/fondecran.png);
     background-position:center center;
     background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 
 }
 
@@ -33,6 +35,12 @@
 
 /*--------------------------------------------------------------------------*/
 /*   bouton  */
+
+
+#textebouton
+{
+	
+}
 #centrebouton
 {
     display: block;
@@ -40,13 +48,55 @@
     margin-right: auto;
     width: 20em;
 }
-
-
-#boutonfooter
+#boutonstandar
 {
-	margin-left: 0px; 
+	border-style: double;
+	border-radius: 30px;
+    width: 138px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 66px;
+	background: #CCC;
+	opacity: 1;
+	z-index: 2;
+}
+#formeboutongauche
+{
+	float: left;
+	border-style: double;
+	border-radius: 30px;
+	border-color: #000;
+	margin-left: 5%;
+    width: 140px;
+	height: 80px;
+	background: #fff;
+	opacity: 1;
+	z-index: 2;
+}
+
+#formeboutondroite
+{
+	float: right;
+	border-style: double;
+	border-radius: 30px;
+	border-color: #000;
+    margin-right: 5%;
+    width: 140px;
+    height: 80px;
+	background: #fff;
+	opacity: 1;
+	z-index: 2;
+}
+
+
+#boutonvoletsouvert
+{
+	margin-left: 10px; 
 	margin-top: 0px; 
-	margin-right: 20px;
+	margin-right: 10px;
 	border-top-width: 0px; 
 	padding-top: 0px; 
 	padding-left: 0px; 
@@ -56,8 +106,8 @@
 	border-right-width: 0px; 
 	border-bottom-width: 0px; 
 	border-left-width: 0px; 
-	width: 40px; 
-	height: 40px;"
+	width: 50px; 
+	height: 49px;"
 }
 
 
@@ -111,7 +161,7 @@
     width: 360px;
     height: 170px;
     background-color : #000; 
-    opacity: 0.7;
+    opacity: 0.6;
     z-index: 1;
 }
 
@@ -123,12 +173,12 @@
 	margin-top: 5%;
 	border-style: double;
 	border-radius: 30px;
-	border-color: #fff;
-	width: 220px;
-	height: 250px;
-	background: #000;
-	opacity: 0.2;
-	z-index: 2;
+	border-color: #000;
+	width: 350px;
+	height: 290px;
+	background: #fff;
+	opacity: 0.8;
+	z-index: 1;
 }
 
 #carredroite
@@ -138,12 +188,12 @@
 	margin-top: 5%;
 	border-style: double;
 	border-radius: 30px;
-	border-color: #fff;
-	width: 220px;
-	height: 250px;
-	background: #000;
-	opacity: 0.2;
-	z-index: 3;
+	border-color: #000;
+	width: 350px;
+	height: 290px;
+	background: #fff;
+	opacity: 0.8;
+	z-index: 1;
 }
 
 #carrebasgauche
@@ -152,14 +202,15 @@
 	margin-right: 5%;
 	margin-left: 5%;
 	margin-top: 2%;
+    margin-bottom: 5%;
 	border-style: double;
 	border-radius: 30px;
-	border-color: #fff;
-	width: 220px;
-	height: 250px;
-	background: #000;
-	opacity: 0.2;
-	z-index: 2;
+	border-color: #000;
+	width: 350px;
+	height: 290px;
+	background: #fff;
+	opacity: 0.8;
+	z-index: 1;
 }
 
 #carrebasdroite
@@ -167,14 +218,15 @@
 	float: right;
 	margin-right: 5%;
 	margin-top: 2%;
+    margin-bottom: 5%;
 	border-style: double;
 	border-radius: 30px;
-	border-color: #fff;
-	width: 220px;
-	height: 250px;
-	background: #000;
-	opacity: 0.2;
-	z-index: 3;
+	border-color: #000;
+	width: 350px;
+	height: 290px;
+	background: #fff;
+	opacity: 0.8;
+	z-index: 1;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -182,7 +234,8 @@
 
 .bascarre
 {
-    margin-top: 108px;
-    margin-left: 15px;
+	opacity: 1;
+    margin-top: 140px;
 }
+
 

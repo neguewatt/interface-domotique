@@ -53,10 +53,24 @@
 
 
 		<div id="carrebasgauche">
-			<p style="text-align: center"> RECAP MODULE VOLETS (OUVERT OU FERMER)</p>
+			<div>
+				<p><img src="images/fenetre.png" class="imagefooter">Gestion des volets</p>
+			</div>
+
+
+
+			<div class="bascarre">
+				<div id="formeboutongauche">
+					<a href="#"  data-role="button" id="boutonstandar" ><img src="images/volets-ouvert.png" classe="imagefooter"> </a>
+				</div>
+				<div id="formeboutondroite">
+					<a href="#"  data-role="button" id="boutonstandar" ></a>
+				</div>
+			</div>
 		</div>
 		<div id ="carrebasdroite">
 			<p style="text-align: center"> RECAP MODULE LUMIERES (ETEINT OU ALLUMER)</p>
+			
 			<div class="bascarre">
 				<form>
 				    <label for="flip-1">Interrupteurs allumés : </label>
