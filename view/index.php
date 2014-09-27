@@ -54,17 +54,19 @@
 
 		<div id="carrebasgauche">
 			<div>
-				<p><img src="images/fenetre.png" class="imagefooter">Gestion des volets</p>
+				<img src="images/fenetre.png" class="imagefenetre"><p  class="textboutonhaut">Gestion des volets</p>
 			</div>
 
 
 
 			<div class="bascarre">
 				<div id="formeboutongauche">
-					<a href="#"  data-role="button" id="boutonstandar" ><img src="images/volets-ouvert.png" classe="imagefooter"> </a>
+					<a href="#"  data-role="button" id="boutonstandar" data-iconpos="left" data-inline="true" >
+						<img src="images/volets-ouvert.png" id="imagevoletsbouton">Ouvrir tous les </br> volets</a>
 				</div>
 				<div id="formeboutondroite">
-					<a href="#"  data-role="button" id="boutonstandar" ></a>
+					<a href="#"  data-role="button" id="boutonstandar" data-iconpos="left" data-inline="true" >
+						<img src="images/volets-fermer.png" id="imagevoletsbouton">Fermer tous les </br> volets</a>
 				</div>
 			</div>
 		</div>

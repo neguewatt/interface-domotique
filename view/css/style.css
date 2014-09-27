@@ -23,24 +23,36 @@
 	 height: 40px;
 	 width: 40px;
 }
-.imagefooter
+.imagefenetre
 {
+	float: left;
     padding-top: 0px;
-    padding-bottom: 0px;
-	 padding-right: 5%; 
-	 height: 40px;
-	 width: 40px;
+	padding-bottom: 0px;
+	padding-right: 5%; 
+	padding-left: 3%;
+	height: 70px;
+	width: 55px;
 }
 
+#imagevoletsbouton
+{
+	float: left;
+	padding-left: 5px;
+    padding-top: 2px;	  
+	height: 40px;
+	width: 40px;
+}
 
 /*--------------------------------------------------------------------------*/
 /*   bouton  */
 
-
-#textebouton
+.textboutonhaut
 {
-	
+	font-size: 16px;	
+    margin-top: 5px;
+    padding-top: 20px;
 }
+
 #centrebouton
 {
     display: block;
@@ -50,15 +62,16 @@
 }
 #boutonstandar
 {
+	font-size: 12px;
 	border-style: double;
-	border-radius: 30px;
+	border-radius: 8px;
     width: 138px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 66px;
+    height: 37px;
 	background: #CCC;
 	opacity: 1;
 	z-index: 2;
@@ -67,11 +80,11 @@
 {
 	float: left;
 	border-style: double;
-	border-radius: 30px;
+	border-radius: 10px;
 	border-color: #000;
 	margin-left: 5%;
     width: 140px;
-	height: 80px;
+	height: 47px;
 	background: #fff;
 	opacity: 1;
 	z-index: 2;
@@ -81,11 +94,11 @@
 {
 	float: right;
 	border-style: double;
-	border-radius: 30px;
+	border-radius: 10px;
 	border-color: #000;
     margin-right: 5%;
     width: 140px;
-    height: 80px;
+    height: 47px;
 	background: #fff;
 	opacity: 1;
 	z-index: 2;
@@ -235,7 +248,7 @@
 .bascarre
 {
 	opacity: 1;
-    margin-top: 140px;
+    margin-top: 170px;
 }
 
 
