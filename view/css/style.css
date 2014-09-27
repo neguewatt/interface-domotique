@@ -43,12 +43,23 @@
 	width: 40px;
 }
 
+.imageradiateur
+{
+	float: left;
+    padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 5%; 
+	padding-left: 3%;
+	height: 70px;
+	width: 55px;
+}
+
 /*--------------------------------------------------------------------------*/
 /*   bouton  */
 
 .textboutonhaut
 {
-	font-size: 16px;	
+	font-size: 1.2em;	
     margin-top: 5px;
     padding-top: 20px;
 }
@@ -245,10 +256,17 @@
 /*--------------------------------------------------------------------------*/
 /*   interrieur des carrés  */
 
-.bascarre
+.bascarrevolets
 {
 	opacity: 1;
     margin-top: 170px;
 }
+
+.bascarreradiateur
+{
+	opacity: 1;
+    margin-top: 130px;
+}
+
 
 

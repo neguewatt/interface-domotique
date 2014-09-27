@@ -22,10 +22,10 @@
 					<p style="text-align: center"> RECAP MODULE TEMPERATURE INTERIEUR</p>
 				</div>
 				<div id ="carredroite">
-					<p style="text-align: center"> RECAP MODULE TEMPERATURE RADIATEUR (GESTION)</p>
-					<div class="bascarre">
+					<img src="images/radiateur.png" class="imageradiateur"><p class="textboutonhaut"> Gestion des radiateurs</p>
+					<div class="bascarreradiateur">
 						<form>
-						    <label for="slider-2">temperature de la maison : </label>
+						    <label for="slider-2" style="text-align:center">Augmenter/baisser </br> le thermostat central: </label>
 						    <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="40" value="15">
 						</form>
 					</div>
@@ -59,7 +59,7 @@
 
 
 
-			<div class="bascarre">
+			<div class="bascarrevolets">
 				<div id="formeboutongauche">
 					<a href="#"  data-role="button" id="boutonstandar" data-iconpos="left" data-inline="true" >
 						<img src="images/volets-ouvert.png" id="imagevoletsbouton">Ouvrir tous les </br> volets</a>
