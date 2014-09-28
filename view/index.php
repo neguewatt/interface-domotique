@@ -13,48 +13,66 @@
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
 	</head>
 
-	<body id="imageecran">
-		<div data-role="page" data-theme="a">
+	<body>
+		<div data-role="page" data-theme="a" id="imageecran">
 			<div data-role="header" data-position="fixed">
 				<h1><img src="images/home.png" alt="home" class="imageheader">HOME</h1>
 			</div>
-				<div id="carregauche">
-					<p style="text-align: center"> RECAP MODULE TEMPERATURE INTERIEUR</p>
+
+
+		<!--     	MODULE DE LA TEMPERATURE		 -->
+
+			<div id="carregauche">
+				<p style="text-align: center"> ??? thomas donne des idées bordel ???</p>
+			</div>
+
+
+		<!--     	MODULE DE LA GESTION DES RADIATEURS		 -->
+
+
+			<div id ="carredroite">
+				<div>
+					<a href="volets.html" data-role="button" id="boutonhaut">
+						<img src="images/radiateur.png" class="imageradiateur"><p class="textboutonhaut"> Gestion des radiateurs</p>
+					</a>
 				</div>
-				<div id ="carredroite">
-					<img src="images/radiateur.png" class="imageradiateur"><p class="textboutonhaut"> Gestion des radiateurs</p>
-					<div class="bascarreradiateur">
-						<form>
-						    <label for="slider-2" style="text-align:center">Augmenter/baisser </br> le thermostat central: </label>
-						    <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="40" value="15">
-						</form>
-					</div>
+				<div>MODULE TEMPERATURE INTERIEUR</div>
+				<div class="bascarreradiateur">
+					<form>
+					    <label for="slider-2" style="text-align:center">Augmenter/baisser </br> le thermostat central: </label>
+					    <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="40" value="15">
+					</form>
 				</div>
+			</div>
 
-				<div id="carrecentral">
-					<h1 class= "centreheure" id = 'heure'></h1>
-					<p class= "centredate" id = 'date'></p>
-					<div id = 'geoloc'>
-						<input type = 'hidden' id = 'latitude'></input>
-						<input type = 'hidden' id = 'longitude'></input>	
-						<div id = 'erreur'></div>		
-					</div>
-					<div class= "centremeteo" id = 'meteo'></div>
+			<div id="carrecentral">
+				<h1 class= "centreheure" id = 'heure'></h1>
+				<p class= "centredate" id = 'date'></p>
+				<div id = 'geoloc'>
+					<input type = 'hidden' id = 'latitude'></input>
+					<input type = 'hidden' id = 'longitude'></input>	
+					<div id = 'erreur'></div>		
 				</div>
+				<div class= "centremeteo" id = 'meteo'></div>
+			</div>
 
 
-			<!--	Inclusion du javascript	-->
-			<script type="text/javascript" src = "../model/externe/jquery.js" ></script>
-			<?php 
-				include('../model/script.php');
-				include('../controller/script.php');
-				include('script.php');
-			?>
+		<!--	Inclusion du javascript	-->
+		<script type="text/javascript" src = "../model/externe/jquery.js" ></script>
+		<?php 
+			include('../model/script.php');
+			include('../controller/script.php');
+			include('script.php');
+		?>
 
+
+		<!--     	MODULE DE LA GESTION DES VOLETS		 -->
 
 		<div id="carrebasgauche">
 			<div>
+				<a href="volets.html" data-role="button" id="boutonhaut" data-transition="pop">
 				<img src="images/fenetre.png" class="imagefenetre"><p  class="textboutonhaut">Gestion des volets</p>
+				</a>
 			</div>
 
 
@@ -70,10 +88,18 @@
 				</div>
 			</div>
 		</div>
+
+
+		<!--     	MODULE DE LA GESTION DES LUMIERES	 -->
+
 		<div id ="carrebasdroite">
-			<p style="text-align: center"> RECAP MODULE LUMIERES (ETEINT OU ALLUMER)</p>
+			<div>
+				<a href="lumiere.html" data-role="button" id="boutonhaut" data-transition="pop">
+				<img src="images/ampoule.png" class="imageampoule"><p  class="textboutonhaut">Gestion des Lumieres</p>
+				</a>
+			</div>
 			
-			<div class="bascarre">
+			<div class="bascarrelumiere">
 				<form>
 				    <label for="flip-1">Interrupteurs allumés : </label>
 				    <img src="images/ampoule-allumer.png">
