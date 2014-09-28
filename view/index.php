@@ -20,32 +20,8 @@
 			</div>
 
 
-		<!--     	MODULE DE LA TEMPERATURE		 -->
 
 			<div id="carregauche">
-				<p style="text-align: center"> ??? thomas donne des idées bordel ???</p>
-			</div>
-
-
-		<!--     	MODULE DE LA GESTION DES RADIATEURS		 -->
-
-
-			<div id ="carredroite">
-				<div>
-					<a href="volets.html" data-role="button" id="boutonhaut">
-						<img src="images/radiateur.png" class="imageradiateur"><p class="textboutonhaut"> Gestion des radiateurs</p>
-					</a>
-				</div>
-				<div>MODULE TEMPERATURE INTERIEUR</div>
-				<div class="bascarreradiateur">
-					<form>
-					    <label for="slider-2" style="text-align:center">Augmenter/baisser </br> le thermostat central: </label>
-					    <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="40" value="15">
-					</form>
-				</div>
-			</div>
-
-			<div id="carrecentral">
 				<h1 class= "centreheure" id = 'heure'></h1>
 				<p class= "centredate" id = 'date'></p>
 				<div id = 'geoloc'>
@@ -65,12 +41,37 @@
 			include('script.php');
 		?>
 
+		<!--     	MODULE DE LA GESTION DES RADIATEURS		 -->
+
+
+			<div id ="carredroite">
+				<div>
+					<a href="volets.html" data-role="button" id="boutonhautcarrehaut">
+						<img src="images/radiateur.png" class="imageradiateur"><p class="textboutonhaut"> Gestion des radiateurs</p>
+					</a>
+				</div>
+				<div>MODULE TEMPERATURE INTERIEUR</div>
+				<div class="bascarreradiateur">
+					<form>
+					    <label for="slider-2" style="text-align:center">Augmenter/baisser </br> le thermostat central: </label>
+					    <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="40" value="15">
+					</form>
+				</div>
+			</div>
+
+
+		<!--     	MODULE DE L'ALARME		 -->
+
+			<div id="carrecentral">
+				<p style="text-align: center"> ??? thomas donne des idées bordel ???</p>
+			</div>
+
 
 		<!--     	MODULE DE LA GESTION DES VOLETS		 -->
 
 		<div id="carrebasgauche">
 			<div>
-				<a href="volets.html" data-role="button" id="boutonhaut" data-transition="pop">
+				<a href="volets.html" data-role="button" id="boutonhautcarrebas" data-transition="pop">
 				<img src="images/fenetre.png" class="imagefenetre"><p  class="textboutonhaut">Gestion des volets</p>
 				</a>
 			</div>
@@ -94,25 +95,17 @@
 
 		<div id ="carrebasdroite">
 			<div>
-				<a href="lumiere.html" data-role="button" id="boutonhaut" data-transition="pop">
+				<a href="lumiere.html" data-role="button" id="boutonhautcarrebas" data-transition="pop">
 				<img src="images/ampoule.png" class="imageampoule"><p  class="textboutonhaut">Gestion des Lumieres</p>
 				</a>
 			</div>
 			
 			<div class="bascarrelumiere">
-				<form>
-				    <label for="flip-1">Interrupteurs allumés : </label>
-				    <img src="images/ampoule-allumer.png">
-				    <select name="flip-1" id="flip-1" data-role="slider">
-				       	<option value="off">
-				        	MARCHE
-				        </option>
-				        <option value="on">
-				        	ARRET
-				        </option>
-				    </select>
-				    <img src="images/ampoule-eteint.png">
-				</form>
+				<div id="formeboutonlumiere">
+					<a href="#"  data-role="button" id="boutonlumiere" data-iconpos="left" data-inline="true" >
+						<img src="images/bouton-eteint.png" id="imagevoletsbouton">Eteindre toutes les </br> lumieres</a>
+				</div>
+				
 			</div>
 		</div>
 	</div>
