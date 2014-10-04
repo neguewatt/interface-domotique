@@ -348,3 +348,27 @@
     margin-left: 10px;
 }
 
+/*--------------------------------------------------------------------------*/
+/*   Module volets  */
+
+.tableaupieces
+{
+	float: left;
+    padding-top: 7%;
+    padding-left: 7%;
+    width: 50%;
+    height: 50%;
+}
+
+.interrupteurpieces
+{	
+    padding-top: 7%;
+    padding-left: 3%;
+    margin-left: 55%;
+}
+
+.forminterrupteurpieces
+{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}

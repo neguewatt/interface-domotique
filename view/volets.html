@@ -19,19 +19,33 @@
 			<div data-role="header" data-position="fixed">
 				<h1><img src="images/home.png" alt="home" class="imageheader">Gestion des volets</h1>
 			</div>
-
-			<div class="ui-grid-b">
-			    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Block A</div></div>
-			    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Block B</div></div>
-			    <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">Block C</div></div>
-			    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Block A</div></div>
-			    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Block B</div></div>
-			    <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">Block C</div></div>
-			    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Block A</div></div>
-			    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Block B</div></div>
-			    <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">Block C</div></div>
+			<div class="tableaupieces">
+				<ul id="two" class="tablist-content" data-role="listview" data-inset="true">
+			        <li><a href="#">Chambre</a></li>
+			        <li><a href="#">Salon</a></li>
+			        <li><a href="#">Cuisine</a></li>
+			    </ul>
 			</div>
-
+			<div class="interrupteurpieces">
+				<form class="forminterrupteurpieces"> 
+				    <select name="flip-3" id="flip-3" data-role="flipswitch" data-mini="true">
+				        <option value="off">Off</option>
+				        <option value="on">On</option>
+				    </select>
+				</form>
+				<form>
+				    <select name="flip-3" id="flip-3" data-role="flipswitch" data-mini="true">
+				        <option value="off">Off</option>
+				        <option value="on">On</option>
+				    </select>
+				</form>
+				<form class="forminterrupteurpieces">
+				    <select name="flip-3" id="flip-3" data-role="flipswitch" data-mini="true">
+				        <option value="off">Off</option>
+				        <option value="on">On</option>
+				    </select>
+				</form>
+			</div>
 		</div>
 	</body>
 
