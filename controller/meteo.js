@@ -1,8 +1,19 @@
-setTimeout(function(){
-	var latitude = $('#geoloc > #latitude').val();
-	var longitude = $('#geoloc > #longitude').val();
-	var laMeteo = new meteo();
+function getPositionExist(){
+	if($('#geoloc > #latitude').val() != '' && $('#geoloc > #longitude').val() != ''){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
 
-	laMeteo.getMeteo(latitude, longitude);
+setInterval(function(){
+	if(getPositionExist()){
+		var latitude = $('#geoloc > #latitude').val();
+		var longitude = $('#geoloc > #longitude').val();
+		var laMeteo = new meteo();
+
+		laMeteo.getMeteo(latitude, longitude);
+	}
 
 }, 2000);

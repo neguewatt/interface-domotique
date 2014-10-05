@@ -28,7 +28,7 @@
 					<input type = 'hidden' id = 'latitude'></input>
 					<input type = 'hidden' id = 'longitude'></input>			
 				</div>
-				<div class= "centremeteo" id = 'meteo'>Chargement de la météo ...</div>
+				<div class= "centremeteo" id = 'meteo'><img src = 'images/ajax-loader.gif' alt = 'chargement'> Géolocalisation ...</div>
 			</div>
 
 
