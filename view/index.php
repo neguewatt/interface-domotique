@@ -41,30 +41,26 @@
 			include('script.php');
 		?>
 
-		<!--     	MODULE DE LA GESTION DES RADIATEURS		 -->
-
-
-			<div id ="carredroite">
-				<div>
-					<a href="radiateur.html" data-role="button" id="boutonhautcarrehaut">
-						<img src="images/radiateur.png" class="imageradiateur"><p class="textboutonhaut"> Gestion des radiateurs</p>
-					</a>
-				</div>
-				<div>MODULE TEMPERATURE INTERIEUR</div>
-				<div class="bascarreradiateur">
-					<form>
-					    <label for="slider-2" style="text-align:center">Augmenter/baisser </br> le thermostat central: </label>
-					    <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="40" value="15">
-					</form>
-				</div>
-			</div>
+		
 
 
 		<!--     	MODULE DE L'ALARME		 -->
 
 			<div id="carrecentral">
 				<div>
-				<p style="text-align: center">MODULE ALARME</p>
+					<p style="text-align: center">MODULE ALARME</p>
+					<a id="boutonserrure" type="image" src="images/serrure.png" href="#popupDialog" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop" data-icon="delete" data-theme="a"><a/>
+					<div data-role="popup" id="popupDialog" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+					    <div data-role="header" data-theme="a" class="ui-corner-top">
+					        <h1>Gestion de l'alarme</h1>
+					    </div>
+					    <div data-role="content" data-theme="d" class="ui-corner-bottom ui-content">
+					        <h3 class="ui-title">Etes-vous sûr de vouloir activer l'alarme?</h3>
+					        <p>Cette action ne peut pas être annulée.</p>
+					        <a href="#" data-role="button" data-inline="true" data-rel="back" data-theme="c">Désactiver</a> 
+					        <a href="#" data-role="button" data-inline="true" data-rel="back" data-transition="flow" data-theme="b">Activer</a>
+					    </div>
+					</div>
 				</div>
 				<div>
 					<p style="text-align: center"> MODULE CONSOMATION ENERGIE </p>
@@ -114,6 +110,24 @@
 				
 			</div>
 		</div>
+
+		<!--     	MODULE DE LA GESTION DES RADIATEURS		 -->
+
+		<div id ="carrecentralbas">
+			<div>
+				<a href="radiateur.html" data-role="button" id="boutonhautcarrehaut">
+					<img src="images/radiateur.png" class="imageradiateur"><p class="textboutonhaut"> Gestion des radiateurs</p>
+				</a>
+			</div>
+			<div>MODULE TEMPERATURE INTERIEUR</div>
+			<div class="bascarreradiateur">
+				<form>
+				    <label for="slider-2" style="text-align:center">Augmenter/baisser </br> le thermostat central: </label>
+				    <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="40" value="15">
+				</form>
+			</div>
+		</div>
+
 	</div>
 	</body>
 

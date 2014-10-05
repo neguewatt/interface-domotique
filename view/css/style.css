@@ -72,6 +72,13 @@
 /*--------------------------------------------------------------------------*/
 /*   bouton  */
 
+#boutonserrure
+{
+	margin-left: 98px;
+	width: 50px;
+}
+
+
 
 #boutonhautcarrehaut
 {
@@ -79,7 +86,7 @@
 	border-radius: 30px 30px 0px 0px;
 	border-color: #000;
     height: 60px;
-    width: 266px;
+    width: 297px;
     margin-top: 0px;
 	background: #000;
 	opacity: 0.6;
@@ -92,7 +99,7 @@
 	border-radius: 30px 30px 0px 0px;
 	border-color: #000;
     height: 60px;
-    width: 316px;
+    width: 297px;
     margin-top: 0px;
 	background: #000;
 	opacity: 0.6;
@@ -214,7 +221,7 @@
 
 #boutonAlarme
 {
-	
+
 }
 
 /*------------------------------------------------------------------------------*/
@@ -256,7 +263,7 @@
 }
 
 
-/*  #carrecentral
+#carrecentralbas
 {
 	border-radius: 30px;
 	border-style: double;
@@ -264,13 +271,14 @@
     margin-top: 30px;
     margin-bottom: 0px;
     margin-right: auto;
-    margin-left: auto;
-    width: 300px;
+    margin-left: 0px;
+    width: 330px;
     height: 290px;
     background-color : #fff; 
     opacity: 0.8;
     z-index: 1;
-} */
+}
+
 #carrecentral
 {
 	overflow: hidden;
@@ -327,7 +335,7 @@
 	border-style: double;
 	border-radius: 30px;
 	border-color: #000;
-	width: 350px;
+	width: 330px;
 	height: 290px;
 	background: #fff;
 	opacity: 0.8;
@@ -343,7 +351,7 @@
 	border-style: double;
 	border-radius: 30px;
 	border-color: #000;
-	width: 350px;
+	width: 330px;
 	height: 290px;
 	background: #fff;
 	opacity: 0.8;
