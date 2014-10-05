@@ -29,7 +29,17 @@
 					<input type = 'hidden' id = 'longitude'></input>	
 					<div id = 'erreur'></div>		
 				</div>
-				<div class= "centremeteo" id = 'meteo'></div>
+				<div class= "centremeteo" id = 'meteo'>
+					<div id = "ville"></div>
+					<div id = "temperature"></div>
+					<div id = "image"></div>
+					<div id = "icon"></div>
+					<div id = "dir_vent"></div>
+					<div id = "vitesse_vent"></div>
+					<div id = "description"></div>
+					<div id = "tempRessentie"></div>
+					<div id = "visibilite"></div>
+				</div>
 			</div>
 
 
