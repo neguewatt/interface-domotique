@@ -81,11 +81,12 @@
 
 
 			<div class="bascarrevolets">
-				<div id="formeboutongauche">
-					
-				</div>
-				<div id="formeboutondroite">
-					
+				<div id="formeboutongauche" data-inline="true">
+					<img id="imagevoletsbouton" src="images/volets-ouvert.png">
+					<p id="tailletextevolets">OUVERTURE/FERMETURE</p>
+					<a href=""><img class="imagefleche" type="image" src="images/flechehaut.png"></a>
+					<a href=""><img class="imagefleche" type="image" src="images/stop.png"></a>
+					<a href=""><img class="imagefleche" type="image" src="images/flechebas.png"></a>
 				</div>
 			</div>
 		</div>

@@ -18,10 +18,10 @@
 	 width: 20px;
 }
 
-.imagefooterhome 
+.imagefleche
 {
-	 height: 40px;
-	 width: 40px;
+	 height: 32px;
+	 width: 30px;
 }
 .imagefenetre
 {
@@ -106,6 +106,12 @@
 	z-index: 2;
 }
 
+#tailletextevolets
+{
+	font-size: 0.3em;
+    margin-bottom: 0px;
+    margin-top: 0.5px;
+}
 
 .textboutonhaut
 {
@@ -242,6 +248,8 @@
     width: 240px;
     padding-right: 100px;
     padding-left: 35px;	
+    margin-bottom: 0%;
+    margin-top: 0%;
 }
 
 .centremeteo
@@ -260,6 +268,8 @@
 	opacity: 1;
 	padding-right: 135px;
     padding-left: 135px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 
@@ -267,10 +277,10 @@
 {
 	border-radius: 30px;
 	border-style: double;
-    overflow: hidden;
-    margin-top: 30px;
+    float: right;
+    margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: auto;
+    margin-right: 5%;
     margin-left: 0px;
     width: 20%;
     height: 290px;
@@ -305,7 +315,7 @@
     margin-right: auto;
     margin-left: 5%;
     width: 360px;
-    height: 330px;
+    height: 275px;
     background-color : #000; 
     opacity: 0.6;
     z-index: 1;
