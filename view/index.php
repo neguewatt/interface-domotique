@@ -29,6 +29,7 @@
 					<input type = 'hidden' id = 'longitude'></input>			
 				</div>
 				<div class= "centremeteo" id = 'meteo'>Chargement de la météo ...</div>
+			</div>
 
 
 		<!--	Inclusion du javascript	-->
