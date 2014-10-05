@@ -17,13 +17,11 @@ function meteo(p_ville, p_temperature, p_image, p_description, p_altImage, p_dir
 			success : function(parsed_json) {
 				$("#meteo").html("<div id = 'ville'>"+parsed_json['location']['city']+"</div>");
 				$("#meteo").append("<div id = 'temperature'>"+parsed_json['current_observation']['temp_c'] + "°C</div>");
-				$("#meteo").append("<div id = 'image'><img src = '" + parsed_json['current_observation']['icon_url'] + "' alt = 'imageTemps' ></div>");
-				$("#meteo").append("<div id = 'icone'>"+parsed_json['current_observation']['icon']+"</div>");
+				$("#meteo").append("<div id = 'image'><img src = '" + parsed_json['current_observation']['icon_url'] + "' alt = '"+ parsed_json['current_observation']['icon'] +"' ></div>");
+				$("#meteo").append("<div id = 'description'>"+parsed_json['current_observation']['weather']+"</div>");
 				$("#meteo").append("<div id = 'dir_vent'>"+parsed_json['current_observation']['wind_dir']+"</div>");
 				$("#meteo").append("<div id = 'vitesse_vent'>"+parsed_json['current_observation']['wind_kph']+ " km/h</div>");
-				$("#meteo").append("<div id = 'description'>"+parsed_json['current_observation']['weather']+"</div>");
-				$("#meteo").append("<div id = 'tempRessentie'>"+parsed_json['current_observation']['feelslike_c'] + "°C</div>");
-				$("#meteo").append("<div id = 'visibilite'>"+parsed_json['current_observation']['visibility_km'] + " km</div>");								
+				$("#meteo").append("<div id = 'tempRessentie'>"+parsed_json['current_observation']['feelslike_c'] + "°C</div>");								
 			}
 		});
 	}
