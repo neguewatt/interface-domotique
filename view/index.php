@@ -82,12 +82,10 @@
 
 			<div class="bascarrevolets">
 				<div id="formeboutongauche">
-					<a href="#"  data-role="button" id="boutonstandar" data-iconpos="left" data-inline="true" >
-						<img src="images/volets-ouvert.png" id="imagevoletsbouton">Ouvrir tous les </br> volets</a>
+					
 				</div>
 				<div id="formeboutondroite">
-					<a href="#"  data-role="button" id="boutonstandar" data-iconpos="left" data-inline="true" >
-						<img src="images/volets-fermer.png" id="imagevoletsbouton">Fermer tous les </br> volets</a>
+					
 				</div>
 			</div>
 		</div>
