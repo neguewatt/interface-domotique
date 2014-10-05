@@ -28,7 +28,7 @@
 					<input type = 'hidden' id = 'latitude'></input>
 					<input type = 'hidden' id = 'longitude'></input>			
 				</div>
-				<div class= "centremeteo" id = 'meteo'><img src = 'images/ajax-loader.gif' alt = 'chargement'> Géolocalisation ...</div>
+				<div class= "centremeteo" id = 'meteo'>Chargement de la météo ...</div>
 			</div>
 
 
@@ -73,8 +73,8 @@
 
 		<div id="carrebasgauche">
 			<div>
-				<a href="volets.html" data-inline="false" data-transition="pop">
-				<img src="images/fenetre.png" classe="button"><p  class="textboutonhaut">Gestion des volets</p>
+				<a href="volets.html" data-role="button" id="boutonhautcarrebas" data-transition="pop">
+				<img src="images/fenetre.png" class="imagefenetre"><p  class="textboutonhaut">Gestion des volets</p>
 				</a>
 			</div>
 
