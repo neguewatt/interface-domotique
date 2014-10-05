@@ -46,7 +46,7 @@
 
 			<div id ="carredroite">
 				<div>
-					<a href="volets.html" data-role="button" id="boutonhautcarrehaut">
+					<a href="radiateur.html" data-role="button" id="boutonhautcarrehaut">
 						<img src="images/radiateur.png" class="imageradiateur"><p class="textboutonhaut"> Gestion des radiateurs</p>
 					</a>
 				</div>
@@ -63,7 +63,13 @@
 		<!--     	MODULE DE L'ALARME		 -->
 
 			<div id="carrecentral">
-				<p style="text-align: center"> ??? thomas donne des idées bordel ???</p>
+				<div>
+				<p style="text-align: center">MODULE ALARME</p>
+				</div>
+				<div>
+					<p style="text-align: center"> MODULE CONSOMATION ENERGIE </p>
+				</div>
+
 			</div>
 
 
