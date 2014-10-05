@@ -28,7 +28,7 @@
 					<input type = 'hidden' id = 'latitude'></input>
 					<input type = 'hidden' id = 'longitude'></input>			
 				</div>
-				<div class= "centremeteo" id = 'meteo'><img src = 'images/ajax-loader.gif' alt = 'chargement'> Géolocalisation ...</div>
+				<div class= "centremeteo" id = 'meteo'>Chargement de la météo ...</div>
 			</div>
 
 
@@ -48,7 +48,8 @@
 			<div id="carrecentral">
 				<div>
 					<p style="text-align: center">MODULE ALARME</p>
-					<a id="boutonserrure" type="image" src="images/serrure.png" href="#popupDialog" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop" data-icon="delete" data-theme="a"><a/>
+					<a href="#popupDialog" data-rel="popup" data-position-to="window"  data-inline="false" data-transition="fade" data-theme="a">
+						<img class="popphoto" id="boutonserrure" type="image" src="images/serrure.png" > <a/>
 					<div data-role="popup" id="popupDialog" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
 					    <div data-role="header" data-theme="a" class="ui-corner-top">
 					        <h1>Gestion de l'alarme</h1>
@@ -72,8 +73,8 @@
 
 		<div id="carrebasgauche">
 			<div>
-				<a href="volets.html" data-role="button" id="boutonhautcarrebas" data-transition="pop">
-				<img src="images/fenetre.png" class="imagefenetre"><p  class="textboutonhaut">Gestion des volets</p>
+				<a href="volets.html" data-inline="false" data-transition="pop">
+				<img src="images/fenetre.png" classe="button"><p  class="textboutonhaut">Gestion des volets</p>
 				</a>
 			</div>
 
