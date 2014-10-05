@@ -15,25 +15,18 @@ function meteo(p_ville, p_temperature, p_image, p_description, p_altImage, p_dir
 			url : "http://api.wunderground.com/api/3f0376e269a62937/geolookup/conditions/lang:FC/q/"+p_latitue+","+p_longitude+".json",
 			dataType : "jsonp",
 			success : function(parsed_json) {
-				$("#meteo").html(parsed_json['location']['city']);
-				$("#meteo").append(parsed_json['current_observation']['temp_c'] + "°C");
-				$("#meteo").append(parsed_json['current_observation']['icon_url']);
-				$("#meteo").append(parsed_json['current_observation']['icon']);
-				$("#meteo").append(parsed_json['current_observation']['wind_dir']);
-				$("#meteo").append(parsed_json['current_observation']['wind_kph']+ " km/h");
-				$("#meteo").append(parsed_json['current_observation']['weather']);
-				$("#meteo").append(parsed_json['current_observation']['feelslike_c'] + "°C");
-				$("#meteo").append(parsed_json['current_observation']['visibility_km'] + " km");								
+				$("#meteo > #message").html("");
+				$("#meteo > #ville").html(parsed_json['location']['city']);
+				$("#meteo > #temperature").append(parsed_json['current_observation']['temp_c'] + "°C");
+				$("#meteo > #image").append("<img src = '" + parsed_json['current_observation']['icon_url'] + "' alt = 'imageTemps' >");
+				$("#meteo > #icon").append(parsed_json['current_observation']['icon']);
+				$("#meteo > #dir_vent").append(parsed_json['current_observation']['wind_dir']);
+				$("#meteo > #vitesse_vent").append(parsed_json['current_observation']['wind_kph']+ " km/h");
+				$("#meteo > #description").append(parsed_json['current_observation']['weather']);
+				$("#meteo > #tempRessentie").append(parsed_json['current_observation']['feelslike_c'] + "°C");
+				$("#meteo > #visibilite").append(parsed_json['current_observation']['visibility_km'] + " km");								
 			}
 		});
-	}
-
-	this.setVille = function(p_ville){
-		return this.ville = p_ville;
-	}
-
-	this.getVille = function(){
-		return this.ville;
 	}
 }
 

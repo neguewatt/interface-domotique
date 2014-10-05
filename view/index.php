@@ -30,6 +30,7 @@
 					<div id = 'erreur'></div>		
 				</div>
 				<div class= "centremeteo" id = 'meteo'>
+					<div id = 'message'></div>
 					<div id = "ville"></div>
 					<div id = "temperature"></div>
 					<div id = "image"></div>

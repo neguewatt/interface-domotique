@@ -1,1 +1,1 @@
-$('#meteo').html("Chargement de la météo ...");
+$('#meteo > #message').html("Chargement de la météo ...");
