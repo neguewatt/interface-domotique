@@ -18,10 +18,17 @@
 	 width: 20px;
 }
 
+.imageflechehaut
+{
+	height: 32px;
+	width: 30px;
+    margin-left: 25px;
+}
+
 .imagefleche
 {
-	 height: 32px;
-	 width: 30px;
+	height: 32px;
+	width: 30px;
 }
 .imagefenetre
 {
@@ -30,14 +37,15 @@
 	padding-bottom: 0px;
 	padding-right: 5%; 
 	padding-left: 3%;
-	height: 70px;
-	width: 55px;
+	height: 50px;
+	width: 50px;
 	opacity: 1;
 }
 
 #imagevoletsbouton
 {
 	float: left;
+	margin-left: 30px;
 	padding-left: 5px;
     padding-top: 2px;	  
 	height: 40px;
@@ -47,14 +55,13 @@
 .imageradiateur
 {
 	float: left;
-    padding-top: 0px;
+    padding-top: 7px;
 	padding-bottom: 0px;
 	padding-right: 0px; 
-	padding-left: 3%;
-	height: 70px;
-	width: 55px;
+    height: 50px;
+    width: 68px;
+    padding-left: 0px;
 	opacity: 1;
-
 }
 
 .imageampoule
@@ -62,10 +69,10 @@
 	float: left;
     padding-top: 0px;
 	padding-bottom: 0px;
-	padding-right: 5%; 
-	padding-left: 3%;
-	height: 70px;
-	width: 55px;
+	padding-right: 0px; 
+	padding-left: 0px;
+	height: 50px;
+	width: 50px;
 	opacity: 1;
 }
 
@@ -87,6 +94,9 @@
 	border-color: #000;
     height: 60px;
     width: 87%;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin-top: 0px;
 	background: #000;
 	opacity: 0.6;
@@ -98,7 +108,7 @@
 	border-style: double;
 	border-radius: 30px 30px 0px 0px;
 	border-color: #000;
-    height: 60px;
+    height: 40px;
     width: 87%;
     margin-top: 0px;
 	background: #000;
@@ -108,16 +118,25 @@
 
 #tailletextevolets
 {
-	font-size: 0.3em;
+	font-size: 0.7em;
     margin-bottom: 0px;
-    margin-top: 0.5px;
+    margin-top: 1.5px;
+    margin-left: 95px;
+}
+
+#tailletextlumiere
+{
+	font-size: 0.7em;
+    margin-bottom: 0px;
+    margin-top: 1.5px;
+    
 }
 
 .textboutonhaut
 {
 	font-size: 1.1em;	
-    margin-top: 5px;
-    padding-top: 20px;
+    margin-top: 0px;
+    padding-top: 10px;
     color: #fff;
     text-shadow: 0 1px 0 #000000;
 }
@@ -198,11 +217,12 @@
 	font-size: 12px;
 	border-style: double;
 	border-radius: 8px;
-    width: 278px;
+    width: 231px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 50px;
@@ -217,8 +237,8 @@
 	border-style: double;
 	border-radius: 10px;
 	border-color: #000;
-	margin-left: 5%;
-    width: 280px;
+	margin-left: 0px;
+    width: 233px;
 	height: 52px;
 	background: #fff;
 	opacity: 1;
@@ -293,7 +313,7 @@
 {
 	overflow: hidden;
 	margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-right: auto;
     margin-left: auto;
 	width:250px;
@@ -374,21 +394,21 @@
 .bascarrevolets
 {
 	opacity: 1;
-    margin-top: 145px;
+    margin-top: 175px;
 }
 
 
 .bascarreradiateur
 {
 	opacity: 1;
-    margin-top: 90px;    
+    margin-top: 100px;    
     margin-left: 10px;
 }
 
 .bascarrelumiere
 {
 	opacity: 1;
-    margin-top: 130px;    
+    margin-top: 150px;    
     margin-left: 10px;
 }
 
@@ -399,16 +419,19 @@
 {
 	float: left;
     padding-top: 7%;
-    padding-left: 7%;
+    padding-left: 0px;
+    margin-left: 40px;
     width: 50%;
     height: 50%;
 }
 
 .interrupteurpieces
 {	
-    padding-top: 7%;
     padding-left: 3%;
     margin-left: 55%;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-left: 155px;
 }
 
 .forminterrupteurpieces
