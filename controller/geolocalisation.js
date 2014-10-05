@@ -3,7 +3,7 @@ function supported(){
         navigator.geolocation.getCurrentPosition(laPosition, showError);
     }
     else{
-    	$('#geoloc > #erreur').html("Votre navigateur ne supporte pas la géolocalisation");
+    	$('#meteo').html("<div id = 'erreur'>Votre navigateur ne supporte pas la géolocalisation.</div>");
     }
 }
 
@@ -16,16 +16,16 @@ function laPosition(position){
 function showError(error) {
     switch(error.code) {
         case error.PERMISSION_DENIED:
-            $('#geoloc > #erreur').html("User denied the request for Geolocation.");
+            $('#meteo').html("<div id = 'erreur'>User denied the request for Geolocation.</div>");
             break;
         case error.POSITION_UNAVAILABLE:
-            $('#geoloc > #erreur').html("Location information is unavailable.");
+            $('#meteo').html("<div id = 'erreur'>Location information is unavailable.</div>");
             break;
         case error.TIMEOUT:
-            $('#geoloc > #erreur').html("The request to get user location timed out.");
+            $('#meteo').html("<div id = 'erreur'>The request to get user location timed out.</div>");
             break;
         case error.UNKNOWN_ERROR:
-            $('#geoloc > #erreur').html("An unknown error occurred.");
+            $('#meteo').html("<div id = 'erreur'>An unknown error occurred.</div>");
             break;
     }
 }

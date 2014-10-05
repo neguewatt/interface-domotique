@@ -1,1 +1,0 @@
-$('#meteo > #message').html("Chargement de la météo ...");

@@ -26,22 +26,9 @@
 				<p class= "centredate" id = 'date'></p>
 				<div id = 'geoloc'>
 					<input type = 'hidden' id = 'latitude'></input>
-					<input type = 'hidden' id = 'longitude'></input>	
-					<div id = 'erreur'></div>		
+					<input type = 'hidden' id = 'longitude'></input>			
 				</div>
-				<div class= "centremeteo" id = 'meteo'>
-					<div id = 'message'></div>
-					<div id = "ville"></div>
-					<div id = "temperature"></div>
-					<div id = "image"></div>
-					<div id = "icon"></div>
-					<div id = "dir_vent"></div>
-					<div id = "vitesse_vent"></div>
-					<div id = "description"></div>
-					<div id = "tempRessentie"></div>
-					<div id = "visibilite"></div>
-				</div>
-			</div>
+				<div class= "centremeteo" id = 'meteo'>Chargement de la météo ...</div>
 
 
 		<!--	Inclusion du javascript	-->
