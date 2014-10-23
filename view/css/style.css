@@ -284,14 +284,6 @@
 /*--------------------------------------------------------------------------*/
 /*   Carrés  */
 
-.carregeneral
-{
-	margin-top: 2%;
-	margin-bottom: 2;
-	margin-right: auto;
-    margin-left: auto;
-
-}
 
 .centredate
 {
@@ -332,7 +324,7 @@
     float: right;
     margin-top: 30px;
     margin-bottom: 0px;
-    margin-right: 5%;
+    margin-right: 7%;
     margin-left: 0px;
     width: 20%;
     height: 290px;
@@ -348,7 +340,7 @@
     float: right;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: auto;
+    margin-right: 7%;
     margin-left: auto;
     width: 20%;
     height: 290px;
@@ -378,7 +370,7 @@
 	overflow: hidden;
 	margin-top: 30px;
     margin-bottom: 10px;
-    margin-right: auto;
+    margin-right: 7%;
     margin-left: auto;
 	width:250px;
 	height:250px;
@@ -394,7 +386,7 @@
 {
 	float: left;
 	margin-right: 5%;
-	margin-left: 5%;
+	margin-left: 7%;
     margin-top: 30px;
     margin-bottom: 5%;
 	border-style: double;
@@ -410,7 +402,7 @@
 #carrebasdroite
 {
 	float: right;
-	margin-right: 5%;
+	margin-right: 7%;
 	margin-top: 30px;
     margin-bottom: 5%;
 	border-style: double;

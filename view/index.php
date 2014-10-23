@@ -18,26 +18,30 @@
 			<div data-role="header" data-position="fixed">
 				<h1><img src="images/home.png" alt="home" class="imageheader">HOME</h1>
 			</div>
-				<div class="carregeneral">
 
 
-					<div id="carregauche">
-						<h1 class= "centreheure" id = 'heure'></h1>
-						<p class= "centredate" id = 'date'></p>
-						<div id = 'geoloc'>
-							<input type = 'hidden' id = 'latitude'></input>
-							<input type = 'hidden' id = 'longitude'></input>			
-						</div>
-						<div class= "centremeteo" id = 'meteo'><img src = 'images/ajax-loader.gif' alt = 'chargement'> Géolocalisation ...</div>
+
+			<div id="carregauche">
+				<h1 class= "centreheure" id = 'heure'></h1>
+				<p class= "centredate" id = 'date'></p>
+				<div id = 'geoloc'>
+					<input type = 'hidden' id = 'latitude'></input>
+					<input type = 'hidden' id = 'longitude'></input>			
+				</div>
+				<div class= "centremeteo" id = 'meteo'><img src = 'images/ajax-loader.gif' alt = 'chargement'> Géolocalisation ...</div>
+			</div>
+
 
 				<!--	Inclusion du javascript	-->
-
 				<script type="text/javascript" src = "../model/externe/jquery.js" ></script>
 				<?php 
 					include('../model/script.php');
 					include('../controller/script.php');
 					include('script.php');
 				?>
+
+				
+
 
 				<!--     	MODULE DE L'ALARME		 -->
 
@@ -62,7 +66,7 @@
 								        <a href="#" data-role="button" id="tailleboutonchiffre" style="float : left" >7</a>
 								        <a href="#" data-role="button" id="tailleboutonchiffre" style="float : right" >9</a>
 								        <a href="#" data-role="button" id="tailleboutonchiffre" style="float : right" >8</a>
-								        <a href="#" data-role="button" id="tailleboutonchiffre" style="float : left" >0</a>
+								        <a href="#" data-role="button" id="tailleboutonchiffre" style="float : left">0</a>
 							   	 	</div>
 							        <a href="#" data-role="button" data-inline="true" data-rel="back" data-theme="c">annuler</a> 
 							    </div>
@@ -73,8 +77,8 @@
 						</div>
 
 					</div>
-					
-					<!-->MODULE DES ALARMES</!-->
+
+				<!--     	MODULE DES CAMERAS		 -->
 
 					<div id="carrecentral">
 						<div>
@@ -189,8 +193,6 @@
 						</form>
 					</div>
 				</div>
-			</div>
 		</div>
 	</body>
-
 </html>
