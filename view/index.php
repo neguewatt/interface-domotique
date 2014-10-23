@@ -157,6 +157,7 @@
 					</div>
 				</div>
 
+				
 
 				<!--     	MODULE DE LA GESTION DES LUMIERES	 -->
 
@@ -177,6 +178,45 @@
 					</div>
 				</div>
 
+				<!--     	MODULE DE LA GESTION DES VOLETS		 -->
+
+				<div id="carrecentralbas">
+					<div>	
+						<a href="volets.html" data-role="button" id="boutonhautcarrebas" data-transition="pop">
+						<img src="images/fenetre.png" class="imagefenetre"><p  class="textboutonhaut">Gestion des volets</p>
+						</a>
+					</div>
+					<div>
+						<input type="checkbox" name="chambre "style="margin-top: 30px">
+						<input type="checkbox" name="salon "style="margin-top: 75px">
+						<input type="checkbox" name="cuisine "style="margin-top: 115px">
+					</div>
+					<div class="tableaupieces">		
+						<ul id="two" class="tablist-content" data-role="listview" data-inset="true">
+					        <li><a href="#popupUndismissible" data-transition="turn" data-role="button" data-inline="true" data-rel="popup" data-dismissible="false">Chambre</a></li>
+					        <li><a href="#popupUndismissible" data-transition="turn" data-role="button" data-inline="true" data-rel="popup" data-dismissible="false">Salon</a></li>
+					        <li><a href="#popupUndismissible" data-transition="turn" data-role="button" data-inline="true" data-rel="popup" data-dismissible="false">Cuisine</a></li>
+					    </ul>
+					</div>
+					<div data-role="popup" id="popupUndismissible" class="ui-content" style="margin-left: 230px;margin-left: 230px;width: 100%;height: 50px;border-top-width: 0px;padding-top: 8px" data-dismissible="false">
+					    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-left">Fermer</a>
+					    <form>
+					    	<label for="slider-1">Volets :</label>
+					    	<input type="range" name="slider-1" id="slider-1" min="0" max="100" value="50">
+					    </form>
+					</div>
+
+					<div class="bascarrevolets">
+						<div  data-inline="true">
+							<img id="imagevoletsbouton" src="images/volets-ouvert.png">
+							<p id="tailletextevolets">Ouverture/Fermeture</p>
+							<a href=""><img class="imageflechehaut" type="image" src="images/flechehaut.png"></a>
+							<a href=""><img class="imagefleche" type="image" src="images/stop.png"></a>
+							<a href=""><img class="imagefleche" type="image" src="images/flechebas.png"></a>
+						</div>
+					</div>
+				</div>
+				
 				<!--     	MODULE DE LA GESTION DES RADIATEURS		 -->
 
 				<div id ="carrecentralbas">
