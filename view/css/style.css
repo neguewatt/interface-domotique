@@ -22,7 +22,7 @@
 {
 	height: 32px;
 	width: 30px;
-    margin-left: 25px;
+    margin-left: 30%;
 }
 
 .imagefleche
@@ -42,42 +42,10 @@
 	opacity: 1;
 }
 
-#imagevoletsbouton
-{
-	float: left;
-	margin-left: 30px;
-	padding-left: 5px;
-    padding-top: 2px;	  
-	height: 40px;
-	width: 40px;
-}
-
-.imageradiateur
-{
-	float: left;
-    padding-top: 7px;
-	padding-bottom: 0px;
-	padding-right: 0px; 
-    height: 50px;
-    width: 68px;
-    padding-left: 0px;
-	opacity: 1;
-}
-
-.imageampoule
-{
-	float: left;
-    padding-top: 0px;
-	padding-bottom: 0px;
-	padding-right: 0px; 
-	padding-left: 0px;
-	height: 50px;
-	width: 50px;
-	opacity: 1;
-}
-
 /*--------------------------------------------------------------------------*/
-/*   bouton  */
+/*   bouton commun */
+
+
 
 #boutonserrure
 {
@@ -85,9 +53,19 @@
 	width: 50px;
 }
 
+.boutonannuleralarm
+{
+
+    width: 104px;
+    left: 116px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
 #boutonchiffre
 {
-    margin-left: 32%;
+    margin-left: 117px;
     height: 210px;
     width: 132px;
 }
@@ -138,20 +116,20 @@
 	z-index: 2;
 }
 
-#tailletextevolets
+#tailletextetitre
 {
-	font-size: 0.7em;
+	font-size: 0.9em;
+    margin-top: 0px;
     margin-bottom: 0px;
-    margin-top: 1.5px;
-    margin-left: 95px;
+    margin-left: 30%;
 }
 
-#tailletextlumiere
+#tailletexteperso
 {
 	font-size: 0.7em;
     margin-bottom: 0px;
     margin-top: 1.5px;
-    
+    margin-left: 30%;
 }
 
 .textboutonhaut
@@ -214,58 +192,6 @@
 	z-index: 2;
 }
 
-
-#boutonvoletsouvert
-{
-	margin-left: 10px; 
-	margin-top: 0px; 
-	margin-right: 10px;
-	border-top-width: 0px; 
-	padding-top: 0px; 
-	padding-left: 0px; 
-	padding-bottom: 0px; 
-	padding-right: 0px; 
-	margin-bottom: 31px; 
-	border-right-width: 0px; 
-	border-bottom-width: 0px; 
-	border-left-width: 0px; 
-	width: 50px; 
-	height: 49px;"
-}
-
-
-#boutonlumiere
-{
-	font-size: 12px;
-	border-style: double;
-	border-radius: 8px;
-    width: 231px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 50px;
-	background: #CCC;
-	opacity: 1;
-	z-index: 2;
-}
-
-#formeboutonlumiere
-{
-	float: left;
-	border-style: double;
-	border-radius: 10px;
-	border-color: #000;
-	margin-left: 0px;
-    width: 233px;
-	height: 52px;
-	background: #fff;
-	opacity: 1;
-	z-index: 2;
-}
 
 #boutonAlarme
 {
@@ -370,7 +296,7 @@
 	overflow: hidden;
 	margin-top: 30px;
     margin-bottom: 10px;
-    margin-right: 7%;
+    margin-right: 8%;
     margin-left: auto;
 	width:250px;
 	height:250px;
@@ -402,7 +328,7 @@
 #carrebasdroite
 {
 	float: right;
-	margin-right: 7%;
+	margin-right: 8%;
 	margin-top: 30px;
     margin-bottom: 5%;
 	border-style: double;
@@ -416,14 +342,7 @@
 }
 
 /*--------------------------------------------------------------------------*/
-/*   interrieur des carrés  */
-
-.bascarrevolets
-{
-	opacity: 1;
-    margin-top: 175px;
-}
-
+/*   Module radiateur  */
 
 .bascarreradiateur
 {
@@ -432,6 +351,22 @@
     margin-left: 10px;
 }
 
+.imageradiateur
+{
+	float: left;
+    padding-top: 7px;
+	padding-bottom: 0px;
+	padding-right: 0px; 
+    height: 50px;
+    width: 68px;
+    padding-left: 0px;
+	opacity: 1;
+}
+
+
+/*--------------------------------------------------------------------------*/
+/*   Module lumiere */
+
 .bascarrelumiere
 {
 	opacity: 1;
@@ -439,15 +374,86 @@
     margin-left: 10px;
 }
 
+.imageampoule
+{
+	float: left;
+    padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px; 
+	padding-left: 0px;
+	height: 50px;
+	width: 50px;
+	opacity: 1;
+}
+
+#tailletextlumiere
+{
+	font-size: 0.7em;
+    margin-bottom: 0px;
+    margin-top: 1.5px;
+}
+
+#formeboutonlumiere
+{
+	float: left;
+	border-style: double;
+	border-radius: 10px;
+	border-color: #000;
+	margin-left: 0px;
+    width: 233px;
+	height: 52px;
+	background: #fff;
+	opacity: 1;
+	z-index: 2;
+}
+
+#boutonlumiere
+{
+	font-size: 12px;
+	border-style: double;
+	border-radius: 8px;
+    width: 231px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+	background: #CCC;
+	opacity: 1;
+	z-index: 2;
+}
+
 /*--------------------------------------------------------------------------*/
 /*   Module volets  */
+
+
+
+.bascarrevolets
+{
+	opacity: 1;
+    margin-top: 155px;
+}
+
+#imagevoletsbouton
+{
+	float: left;
+	margin-left: 30px;
+	padding-left: 5px;
+    padding-top: 2px;	  
+	height: 40px;
+	width: 40px;
+}
 
 .tableaupieces
 {
 	float: left;
-    padding-top: 7%;
+    padding-top: 0px;
     padding-left: 0px;
     margin-left: 40px;
+    margin-top: 0px;
     width: 50%;
     height: 50%;
 }
@@ -457,7 +463,7 @@
     padding-left: 3%;
     margin-left: 55%;
     padding-top: 5px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 155px;
 }
 
